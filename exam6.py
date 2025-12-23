@@ -148,6 +148,5 @@ class JournalManager:
             except Exception as e:
                 print(f"\nAn unexpected error occurred: {e}")
 
-if __name__ == "__main__":
-    journal = JournalManager()
-    journal.run()
+journal = JournalManager()
+journal.run()
