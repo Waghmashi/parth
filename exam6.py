@@ -3,16 +3,13 @@ from datetime import datetime
 
 class FileHandler:
     def check_file(self, filename):
-        """Check if file exists"""
         return os.path.isfile(filename)
     
     def remove_file(self, filename):
-        """Delete a file"""
         os.remove(filename)
   
 class TimeHandler:
     def get_time_now(self):
-        """Get current time"""
         return datetime.now()
 
 class SimpleJournal(FileHandler, TimeHandler):
@@ -20,7 +17,6 @@ class SimpleJournal(FileHandler, TimeHandler):
         self.filename = "my_journal.txt"
     
     def add(self):
-        """Add new entry"""
         print("\n--- Add New Entry ---")
         text = input("Enter your journel entry?\n")
         
@@ -39,7 +35,6 @@ class SimpleJournal(FileHandler, TimeHandler):
             print("Could not save. Try again.")
     
     def view(self):
-        """View all entries"""
         print("\n--- View all entry ---")
         
         if not self.check_file(self.filename):
@@ -59,7 +54,6 @@ class SimpleJournal(FileHandler, TimeHandler):
             print("Could not read file.")
     
     def search(self):
-        """Search for text in entries"""
         print("\n--- Search ---")
         
         if not self.check_file(self.filename):
@@ -91,7 +85,6 @@ class SimpleJournal(FileHandler, TimeHandler):
             print("Search failed.")
     
     def delete_all(self):
-        """Delete all entries"""
         print("\n--- Delete All ---")
         
         if not self.check_file(self.filename):
@@ -110,7 +103,6 @@ class SimpleJournal(FileHandler, TimeHandler):
             print("Not deleted.")
     
     def menu(self):
-        """Show menu"""
         print("\n" + "=" * 30)
         print("Please select an option")
         print("=" * 30)
@@ -121,7 +113,6 @@ class SimpleJournal(FileHandler, TimeHandler):
         print("5. Exit")
     
     def start(self):
-        """Start the program"""
         print("Welcome to Personal Journal Manager!")
         
         while True:
