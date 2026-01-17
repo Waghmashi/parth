@@ -108,11 +108,9 @@ class NumPyAnalyzer:
             print("Enter the elements to create a new array for splitting (6 elements separated by space): ", end="")
             elems = list(map(int, input().split()))
             
-            # Create a new 2x3 array with the input elements
             new_array = np.array(elems).reshape(2, 3)
             print(f"New Array created for splitting:\n{new_array}")
             
-            # Split into 2 equal parts along rows
             split_parts = np.array_split(new_array, 2, axis=0)
             
             print(f"\nSplit array into 2 parts:")
@@ -169,7 +167,7 @@ class NumPyAnalyzer:
                 print("\nThank you for using the NumPy Analyzer! Goodbye!")
                 break
             else:
-                print("Invalid choice!")
+                print("Invalid ch1oice!")
 
 if __name__ == "__main__":
     analyzer = NumPyAnalyzer()
