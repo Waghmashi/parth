@@ -1,0 +1,11 @@
+Book_ID,Title,Author,Category,Year_Published,Copies_Available,Times_Issued
+101,Python Basics,A. Sharma,Programming,2018,5,120
+102,Data Science Guide,R. Patel,Data Science,2020,3,95
+103,AI for Beginners,S. Verma,AI,2021,7,150
+104,Machine Learning,K. Mehta,ML,2019,4,110
+105,Web Development,N. Joshi,Web,2017,6,80
+106,Database Systems,P. Shah,Database,2016,2,60
+107,Cloud Computing,M. Desai,Cloud,2022,8,90
+108,Cyber Security,V. Rao,Security,2021,5,70
+109,Digital Marketing,H. Singh,Marketing,2019,4,65
+110,Big Data Analytics,T. Kapoor,Analytics,2020,3,100
