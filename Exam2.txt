@@ -1,0 +1,113 @@
+create database if not exists testdb;
+use testdb;
+
+create table customers (
+    customerid int primary key auto_increment,
+    firstname varchar(50),
+    lastname varchar(50),
+    email varchar(100),
+    registrationdate date
+);
+
+create table orders (
+    orderid int primary key auto_increment,
+    customerid int,
+    orderdate date,
+    totalamount decimal(10,2),
+    foreign key (customerid) references customers(customerid)
+);
+
+create table employees (
+    employeeid int primary key auto_increment,
+    firstname varchar(50),
+    lastname varchar(50),
+    department varchar(50),
+    salary decimal(10,2)
+);
+
+insert into customers (firstname, lastname, email, registrationdate) values
+('parth', 'waghmashi', 'parth@gmail.com', '2023-01-10'),
+('subhash', 'bishnoi', 'subhash@gmail.com', '2023-02-15'),
+('dipak', 'gurjar', 'dipak@gmail.com', '2023-03-16'),
+('bunty', 'raval', 'bunty@gmail.com', '2023-04-17'),
+('indrajeet', 'maheshwari', 'indrajeet@gmail.com', '2023-05-18'),
+('rahul', 'sharma', 'rahul.sharma@gmail.com', '2023-02-15'),
+('priya', 'patel', 'priya.patel@gmail.com', '2023-03-20'),
+('amit', 'verma', 'amit.verma@gmail.com', '2023-04-05'),
+('neha', 'jain', 'neha.jain@gmail.com', '2023-05-18'),
+('rohit', 'gupta', 'rohit.gupta@gmail.com', '2023-06-12'),
+('kavya', 'mehta', 'kavya.mehta@gmail.com', '2023-07-25'),
+('arjun', 'nair', 'arjun.nair@gmail.com', '2023-08-09'),
+('sneha', 'iyer', 'sneha.iyer@gmail.com', '2023-09-14'),
+('vikas', 'singh', 'vikas.singh@gmail.com', '2023-10-30'),
+('anjali', 'desai', 'anjali.desai@gmail.com', '2023-11-22');
+
+insert into orders (customerid, orderdate, totalamount) values
+(1, '2023-07-01', 1500.00),
+(2, '2023-07-05', 800.00),
+(3, '2023-07-10', 2200.00),
+(1, '2023-08-15', 1200.00);
+
+insert into employees (firstname, lastname, department, salary) values
+('bunty', 'rawal', 'sales', 65000),
+('dipak', 'gurjar', 'it', 45000),
+('rahul', 'sharma', 'marketing', 55000),
+('priya', 'patel', 'hr', 48000),
+('amit', 'verma', 'it', 72000),
+('neha', 'jain', 'finance', 68000),
+('rohit', 'gupta', 'sales', 60000),
+('kavya', 'mehta', 'marketing', 53000),
+('arjun', 'nair', 'it', 75000),
+('sneha', 'iyer', 'hr', 50000),
+('vikas', 'singh', 'finance', 70000),
+('anjali', 'desai', 'sales', 62000),
+('manish', 'kulkarni', 'it', 78000),
+('pooja', 'reddy', 'marketing', 56000),
+('sachin', 'chavan', 'finance', 69000);
+
+select o.orderid, c.firstname, o.totalamount
+from orders o
+inner join customers c
+on o.customerid = c.customerid;
+
+select c.firstname, o.orderid
+from customers c
+left join orders o
+on c.customerid = o.customerid;
+
+select c.firstname, o.orderid
+from customers c
+right join orders o
+on c.customerid = o.customerid;
+
+select c.firstname, o.orderid
+from customers c
+left join orders o
+on c.customerid = o.customerid
+
+union
+
+select c.firstname, o.orderid
+from customers c
+right join orders o
+on c.customerid = o.customerid
+where c.customerid is null;
+
+select orderid, totalamount
+from orders
+where totalamount > (select avg(totalamount) from orders);
+
+select firstname, salary
+from employees
+where salary > (select avg(salary) from employees);
+
+select concat(firstname, ' ', lastname) as full_name
+from customers;
+
+select firstname, salary,
+case
+    when salary > 60000 then 'high'
+    when salary >= 40000 then 'medium'
+    else 'low'
+end as salary_level
+from employees;
