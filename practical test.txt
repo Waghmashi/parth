@@ -1,0 +1,172 @@
+create database if not exists parthdb;
+use parthdb;
+
+create table venues (
+    venue_id int primary key auto_increment,
+    venue_name varchar(100) not null,
+    location varchar(150),
+    capacity int
+);
+
+create table organizers (
+    organizer_id int primary key auto_increment,
+    organizer_name varchar(100) not null,
+    contact_email varchar(100),
+    phone_number varchar(20)
+);
+
+create table events (
+    event_id int primary key auto_increment,
+    event_name varchar(150) not null,
+    event_date datetime,
+    venue_id int,
+    organizer_id int,
+    ticket_price decimal(10, 2),
+    total_seats int,
+    available_seats int,
+    foreign key (venue_id) references venues(venue_id),
+    foreign key (organizer_id) references organizers(organizer_id)
+);
+
+create table attendees (
+    attendee_id int primary key auto_increment,
+    name varchar(100),
+    email varchar(100),
+    phone_number varchar(20)
+);
+
+create table tickets (
+    ticket_id int primary key auto_increment,
+    event_id int,
+    attendee_id int,
+    booking_date date,
+    status enum('confirmed', 'cancelled', 'pending'),
+    foreign key (event_id) references events(event_id),
+    foreign key (attendee_id) references attendees(attendee_id),
+    unique(event_id, attendee_id)
+);
+
+create table payments (
+    payment_id int primary key auto_increment,
+    ticket_id int,
+    amount_paid decimal(10, 2),
+    payment_status enum('success', 'failed', 'pending'),
+    payment_date datetime,
+    foreign key (ticket_id) references tickets(ticket_id)
+);
+
+insert into venues (venue_name, location, capacity) values 
+('royal palace','rajkot',450),
+('sunrise banquet','ahmedabad',350),
+('green garden lawn','surat',800),
+('metro convention center','vadodara',600),
+('silver star hall','bhavnagar',250),
+('heritage plaza','jamnagar',400),
+('skyline rooftop','gandhinagar',200),
+('celebration point','anand',300),
+('lakeview lawn','mehsana',700),
+('diamond party plot','bharuch',550);
+
+insert into organizers (organizer_name, contact_email, phone_number) values 
+('prime events','primeevents@email.com','9012345678'),
+('silver line planners','silverline@email.com','9823456712'),
+('celebrate india','celebrate@email.com','9098765432'),
+('dream day organizers','dreamday@email.com','9345678120'),
+('elite event management','eliteevents@email.com','9988776655'),
+('sunshine planners','sunshine@email.com','9123098765'),
+('grand moments','grandmoments@email.com','9876501234'),
+('perfect occasion','perfect@email.com','9765432109'),
+('sparkle events','sparkle@email.com','9654321098'),
+('urban fest planners','urbanfest@email.com','9543216780');
+
+insert into events (event_name, event_date, venue_id, organizer_id, ticket_price, total_seats, available_seats) values 
+('startup conclave','2026-09-12',4,2,900,450,150),
+('wedding gala','2026-12-22',5,3,600,400,250),
+('food carnival','2026-08-18',6,1,1300,700,300),
+('art exhibition','2026-07-10',7,4,500,200,80),
+('sports meet','2026-11-02',8,2,2000,1500,900),
+('cultural night','2026-10-25',9,3,750,350,120),
+('education fair','2026-09-05',10,5,1100,600,350),
+('fashion show','2026-12-05',1,4,650,300,100),
+('tech workshop','2026-08-30',2,2,400,180,60),
+('charity fundraiser','2026-11-20',3,1,1000,550,220);
+
+insert into attendees (name, email, phone_number) values 
+('aarav desai','aarav@email.com','9011122233'),
+('riya trivedi','riya@email.com','9022233344'),
+('manav joshi','manav@email.com','9033344455'),
+('kavya shah','kavya@email.com','9044455566'),
+('yash patel','yash@email.com','9055566677'),
+('ishita modi','ishita@email.com','9066677788'),
+('harsh bhatt','harsh@email.com','9077788899'),
+('meera iyer','meera@email.com','9088899900'),
+('dhruv rana','dhruv@email.com','9099900011'),
+('anjali kapoor','anjali@email.com','9101011122');
+
+insert into tickets (event_id, attendee_id, booking_date, status) values 
+(1,1,'2026-01-01','confirmed'),
+(2,2,'2026-01-02','pending'),
+(3,3,'2026-01-03','confirmed'),
+(4,4,'2026-01-04','cancelled'),
+(5,5,'2026-01-05','confirmed'),
+(6,6,'2026-01-06','pending'),
+(7,7,'2026-01-07','confirmed'),
+(8,8,'2026-01-08','cancelled'),
+(9,9,'2026-01-09','confirmed'),
+(10,10,'2026-01-10','pending');
+
+insert into payments (ticket_id, amount_paid, payment_status, payment_date) values 
+(1,900,'success','2026-01-01 10:00:00'),
+(2,600,'pending','2026-01-02 11:00:00'),
+(3,1300,'success','2026-01-03 12:00:00'),
+(4,500,'failed','2026-01-04 13:00:00'),
+(5,2000,'success','2026-01-05 14:00:00'),
+(6,750,'pending','2026-01-06 15:00:00'),
+(7,1100,'success','2026-01-07 16:00:00'),
+(8,650,'failed','2026-01-08 17:00:00'),
+(9,400,'success','2026-01-09 18:00:00'),
+(10,1000,'pending','2026-01-10 19:00:00');
+
+select event_id, sum(ticket_price) as revenue 
+from events group by event_id order by revenue desc limit 5;
+
+select * from events 
+where month(event_date) = 12 and (available_seats > (total_seats * 0.5));
+
+select event_id, count(attendee_id) as total_attendees 
+from tickets group by event_id;
+
+select avg(ticket_price) as average_price from events;
+
+select e.event_name, v.venue_name, v.location 
+from events e 
+inner join venues v on e.venue_id = v.venue_id;
+
+select event_name from events 
+where event_id in (
+    select event_id from tickets t 
+    join payments p on t.ticket_id = p.ticket_id 
+    group by event_id 
+    having sum(amount_paid) > (select avg(amount_paid) from payments)
+);
+
+select payment_id, date_format(payment_date, '%y-%m-%d %h:%i:%s') as formatted_date 
+from payments;
+
+select upper(organizer_name) as organizer, 
+       trim(name) as clean_name, 
+       coalesce(email, 'not provided') as email_status 
+from organizers, attendees;
+
+select event_name, 
+       sum(ticket_price) over(partition by event_id) as total_rev,
+       rank() over(order by ticket_price desc) as revenue_rank
+from events;
+
+select event_name, 
+case 
+    when available_seats < (total_seats * 0.2) then 'high demand'
+    when available_seats between (total_seats * 0.2) and (total_seats * 0.5) then 'moderate demand'
+    else 'low demand'
+end as demand_status
+from events;
