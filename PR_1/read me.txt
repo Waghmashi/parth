@@ -1,0 +1,58 @@
+# Data Profiler: Data Preprocessing and Feature Engineering
+
+Project Overview
+This project was completed as part of the **Red & White Skill Education** curriculum. The primary objective is to perform comprehensive Data Preprocessing, Exploratory Data Analysis (EDA), and Feature Engineering on a real-world-style customer churn dataset. 
+
+Objectives
+*   Understand the fundamentals of Data Analysis and Tensors.
+*   Acquire data from multiple formats (CSV, JSON, SQL, API).
+*   Perform data cleaning (handling missing values, duplicates, and data types).
+*   Conduct Univariate, Bivariate, and Multivariate Exploratory Data Analysis (EDA).
+*   Generate automated data profiling reports for decision-making.
+
+Repository Structure
+*   `Data_Profiler_Project.ipynb`: The main Jupyter Notebook containing all the code, visualizations, and theoretical explanations.
+*   `data_profiling_report.html`: The automated Pandas Profiling report generated from the cleaned dataset.
+*   `README.md`: Project documentation and summary.
+
+Technologies & Libraries Used
+*   **Language:** Python 3.x
+*   **Data Manipulation:** Pandas, NumPy
+*   **Data Visualization:** Matplotlib, Seaborn
+*   **Database & APIs:** SQLite3, JSON, Requests
+*   **Data Profiling:** Pandas Profiling (ydata-profiling)
+
+Project Workflow & Tasks Completed
+ Part A: Fundamentals
+*   Defined Data Analysis and outlined the steps to plan a Data Science project.
+*   Framed the Machine Learning problem statement (Predicting Customer Churn).
+*   Explained the concept of Tensors with NumPy examples.
+
+Part B: Data Acquisition
+*   Loaded datasets from four different sources:
+    1.  CSV: Loaded via Pandas.
+    2.  JSON:Parsed nested JSON data.
+    3.  SQL: Connected to an SQLite database and fetched records.
+    4.  API: Simulated fetching data from a REST API endpoint.
+*   Merged all sources into a single master DataFrame.
+
+Part C: Data Understanding & Cleaning
+*   Performed initial exploration using `.head()`, `.info()`, and `.describe()`.
+*   Identified and handled missing values (using median/mean imputation).
+*   Removed duplicate records.
+*   Corrected inconsistent data types (e.g., converting Churn to a categorical variable).
+
+Part D: Exploratory Data Analysis (EDA)
+*   **Univariate Analysis: Plotted distributions for Age, Income, and Purchases.
+*   **Bivariate Analysis: Analyzed the relationship between Gender & Purchases, and Income & Churn.
+*   **Multivariate Analysis: Generated a correlation heatmap and pair plots to identify feature interactions.
+
+Part E: Data Profiling
+*   Generated a comprehensive **Pandas Profiling Report** summarizing missing values, descriptive statistics, correlations, and potential data quality issues.
+
+How to Run the Project
+1. Clone this repository to your local machine.
+2. Ensure you have Jupyter Notebook installed (or use Google Colab).
+3. Install the required dependencies:
+   ```bash
+   pip install pandas numpy matplotlib seaborn pandas-profiling
