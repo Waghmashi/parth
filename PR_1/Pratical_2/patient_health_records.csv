@@ -1,0 +1,251 @@
+Patient_ID,Age,Gender,Blood_Type,Primary_Diagnosis,Systolic_BP_mmHg,Diastolic_BP_mmHg,Heart_Rate_bpm,Fasting_Glucose_mgdL,BMI,SpO2_Percent,Prescribed_Medication,Admission_Type,Visit_Date,Discharge_Status
+PAT-1000,69,Female,O-,Hyperlipidemia,129,71,71,73.4,19.5,95,Atorvastatin,Routine Checkup,2026-06-16,Discharged
+PAT-1001,32,Male,A+,Chronic Kidney Disease,116,76,82,113.5,18.6,94,Erythropoietin,Routine Checkup,2026-01-12,Discharged
+PAT-1002,78,Female,A-,Migraine,116,83,79,84.2,29.4,95,Propranolol,Elective,2026-07-28,Discharged
+PAT-1003,38,Male,A+,Osteoarthritis,121,81,87,112.8,24.5,98,Acetaminophen,Elective,2026-02-25,Follow-up Required
+PAT-1004,41,Male,A+,Hyperlipidemia,119,76,77,94.4,30.3,98,Atorvastatin,Elective,2026-06-27,Discharged
+PAT-1005,20,Female,A+,Asthma,112,81,78,99.6,27.8,95,Albuterol,Emergency,2026-06-06,Discharged
+PAT-1006,39,Female,O+,Hyperlipidemia,110,72,89,81.2,25.1,99,Atorvastatin,Elective,2026-07-31,Discharged
+PAT-1007,70,Female,A-,Asthma,119,73,78,112.5,19.0,94,Montelukast,Routine Checkup,2026-02-22,Transferred
+PAT-1008,19,Male,A+,Asthma,114,80,92,111.6,20.9,95,Montelukast,Urgent,2026-07-19,Discharged
+PAT-1009,47,Female,A+,Hyperlipidemia,125,71,89,71.5,27.9,95,Atorvastatin,Emergency,2025-12-12,Follow-up Required
+PAT-1010,55,Female,A-,Hypertension,138,103,87,111.6,31.6,95,Losartan,Routine Checkup,2026-02-03,Discharged
+PAT-1011,19,Female,A+,Type 2 Diabetes,127,82,96,212.0,26.7,96,Glipizide,Elective,2026-04-05,Discharged
+PAT-1012,81,Male,B+,Hyperlipidemia,107,82,69,93.5,27.2,98,Atorvastatin,Routine Checkup,2026-07-20,Discharged
+PAT-1013,77,Male,A+,Asthma,118,67,75,95.2,25.0,99,Albuterol,Urgent,2026-04-29,Discharged
+PAT-1014,38,Male,A+,Type 2 Diabetes,107,69,78,188.3,31.3,97,Metformin,Urgent,2026-08-14,Discharged
+PAT-1015,50,Male,B+,Gastroesophageal Reflux,127,76,70,95.8,29.4,99,Omeprazole,Emergency,2026-04-24,Follow-up Required
+PAT-1016,75,Female,O+,Chronic Kidney Disease,108,77,78,98.2,30.5,97,Erythropoietin,Emergency,2025-10-25,Discharged
+PAT-1017,39,Male,A+,Hypertension,131,87,65,109.2,18.8,96,Losartan,Routine Checkup,2026-03-29,Discharged
+PAT-1018,66,Male,A+,Migraine,127,77,97,93.8,31.2,95,Sumatriptan,Emergency,2025-11-21,Transferred
+PAT-1019,76,Female,A+,Hyperlipidemia,107,71,64,70.4,19.2,96,Atorvastatin,Routine Checkup,2026-06-05,Transferred
+PAT-1020,59,Female,O-,Gastroesophageal Reflux,121,76,80,98.2,30.3,96,Famotidine,Elective,2025-09-16,Discharged
+PAT-1021,77,Male,B+,Hyperlipidemia,119,74,89,74.1,23.0,94,Atorvastatin,Emergency,2026-09-10,Discharged
+PAT-1022,32,Male,O+,Healthy / Routine Checkup,124,69,68,103.0,18.5,98,None,Emergency,2026-01-17,Follow-up Required
+PAT-1023,79,Female,O+,Gastroesophageal Reflux,117,78,79,83.4,30.0,97,Famotidine,Emergency,2026-01-02,Discharged
+PAT-1024,79,Male,A+,Chronic Kidney Disease,122,69,79,71.9,18.7,95,Erythropoietin,Routine Checkup,2025-12-09,Discharged
+PAT-1025,64,Male,O+,Gastroesophageal Reflux,118,79,82,89.2,23.7,97,Omeprazole,Elective,2026-01-12,Follow-up Required
+PAT-1026,79,Male,O+,Hypertension,153,88,79,79.8,31.3,99,Losartan,Elective,2026-01-19,Discharged
+PAT-1027,68,Male,A+,Type 2 Diabetes,133,69,85,139.8,31.0,97,Glipizide,Elective,2026-05-27,Discharged
+PAT-1028,72,Female,B+,Chronic Kidney Disease,128,78,86,97.0,30.7,99,Calcitriol,Emergency,2026-03-16,Discharged
+PAT-1029,81,Male,O+,Hyperlipidemia,106,71,70,114.6,21.6,98,Simvastatin,Elective,2025-09-30,Discharged
+PAT-1030,20,Female,B+,Gastroesophageal Reflux,124,83,75,93.1,21.6,99,Omeprazole,Emergency,2025-11-15,Discharged
+PAT-1031,68,Female,O-,Hypertension,163,93,59,78.4,29.0,97,Lisinopril,Routine Checkup,2026-02-19,Discharged
+PAT-1032,24,Male,A-,Hyperlipidemia,110,69,86,72.6,31.6,97,Simvastatin,Elective,2026-06-09,Discharged
+PAT-1033,38,Male,O+,Asthma,121,73,78,111.7,31.9,99,Albuterol,Elective,2025-10-19,Transferred
+PAT-1034,56,Male,A-,Hyperlipidemia,133,74,72,93.2,25.1,96,Atorvastatin,Elective,2026-06-08,Transferred
+PAT-1035,35,Female,O+,Osteoarthritis,121,67,84,106.7,21.5,98,Ibuprofen,Elective,2025-11-17,Discharged
+PAT-1036,21,Male,O+,Hyperlipidemia,128,79,88,71.6,30.6,94,Atorvastatin,Routine Checkup,2025-11-03,Discharged
+PAT-1037,77,Male,A+,Hyperlipidemia,109,66,72,90.6,23.8,95,Simvastatin,Elective,2026-05-27,Discharged
+PAT-1038,31,Female,A+,Hyperlipidemia,131,73,80,72.0,30.0,97,Simvastatin,Emergency,2026-02-10,Discharged
+PAT-1039,26,Male,A+,Asthma,114,73,81,84.8,31.1,95,Montelukast,Urgent,2026-08-05,Follow-up Required
+PAT-1040,70,Male,A+,Gastroesophageal Reflux,115,66,70,88.4,23.5,94,Famotidine,Emergency,2026-07-15,Transferred
+PAT-1041,19,Male,A+,Hypertension,137,89,79,72.2,25.7,95,Lisinopril,Emergency,2026-06-17,Discharged
+PAT-1042,77,Male,O+,Hyperlipidemia,109,80,94,100.7,19.5,94,Simvastatin,Routine Checkup,2026-09-06,Follow-up Required
+PAT-1043,61,Female,AB+,Hyperlipidemia,121,82,90,92.3,25.0,99,Atorvastatin,Routine Checkup,2026-03-05,Discharged
+PAT-1044,25,Male,O+,Chronic Kidney Disease,133,83,60,107.1,23.2,96,Calcitriol,Routine Checkup,2026-04-03,Discharged
+PAT-1045,64,Female,O+,Hyperlipidemia,106,72,76,95.5,22.1,97,Atorvastatin,Elective,2026-08-04,Discharged
+PAT-1046,52,Male,O+,Depression,110,83,80,109.1,21.8,94,Escitalopram,Elective,2025-10-19,Follow-up Required
+PAT-1047,53,Female,O+,Healthy / Routine Checkup,131,80,86,101.9,29.8,95,None,Emergency,2026-04-18,Discharged
+PAT-1048,67,Male,O+,Type 2 Diabetes,129,74,87,141.6,34.4,97,Insulin Glargine,Emergency,2025-11-18,Discharged
+PAT-1049,21,Male,A-,Type 2 Diabetes,132,71,96,227.0,37.5,96,Metformin,Routine Checkup,2025-09-22,Follow-up Required
+PAT-1050,19,Female,A+,Asthma,129,83,82,109.6,18.6,99,Montelukast,Elective,2026-07-12,Discharged
+PAT-1051,23,Female,A+,Type 2 Diabetes,115,71,94,147.7,35.8,97,Metformin,Routine Checkup,2026-08-23,Discharged
+PAT-1052,71,Female,A+,Osteoarthritis,118,77,65,92.8,18.6,94,Acetaminophen,Routine Checkup,2026-08-12,Transferred
+PAT-1053,21,Male,A+,Healthy / Routine Checkup,117,78,73,84.7,26.1,96,Multivitamin,Emergency,2025-11-29,Discharged
+PAT-1054,71,Male,A+,Hypertension,160,86,65,98.5,25.8,95,Amlodipine,Elective,2026-03-07,Discharged
+PAT-1055,80,Male,O+,Hypertension,164,100,58,74.8,28.8,96,Lisinopril,Urgent,2025-10-31,Discharged
+PAT-1056,35,Female,O+,Type 2 Diabetes,114,73,62,235.9,30.1,96,Metformin,Emergency,2025-09-29,Discharged
+PAT-1057,61,Male,A+,Chronic Kidney Disease,132,79,60,111.9,19.9,98,Erythropoietin,Routine Checkup,2026-09-10,Follow-up Required
+PAT-1058,51,Female,A+,Hyperlipidemia,108,84,58,101.0,19.4,96,Simvastatin,Elective,2026-02-08,Discharged
+PAT-1059,79,Male,A+,Hypertension,156,101,61,104.7,28.1,96,Amlodipine,Emergency,2025-10-10,Discharged
+PAT-1060,31,Female,B-,Healthy / Routine Checkup,126,65,97,72.6,19.5,97,None,Urgent,2026-07-19,Discharged
+PAT-1061,65,Male,B+,Gastroesophageal Reflux,122,82,92,114.6,27.6,95,Famotidine,Routine Checkup,2025-12-16,Discharged
+PAT-1062,32,Female,O+,Hypertension,141,88,89,99.1,26.5,97,Lisinopril,Emergency,2026-05-04,Discharged
+PAT-1063,79,Male,A+,Osteoarthritis,116,71,91,73.0,29.6,97,Ibuprofen,Routine Checkup,2025-10-05,Discharged
+PAT-1064,57,Male,O+,Gastroesophageal Reflux,119,79,82,106.8,21.9,94,Famotidine,Emergency,2026-07-18,Discharged
+PAT-1065,70,Female,O-,Asthma,127,66,67,82.3,32.0,97,Albuterol,Routine Checkup,2025-10-22,Discharged
+PAT-1066,41,Male,A+,Hypertension,146,87,78,90.3,20.7,98,Losartan,Routine Checkup,2026-06-17,Discharged
+PAT-1067,43,Male,O+,Hypertension,158,95,96,79.9,19.6,98,Amlodipine,Elective,2026-02-18,Discharged
+PAT-1068,77,Female,O+,Hypertension,143,104,84,99.5,22.2,94,Losartan,Elective,2026-03-12,Discharged
+PAT-1069,58,Female,B+,Depression,121,76,84,71.4,28.4,99,Sertraline,Routine Checkup,2026-01-24,Discharged
+PAT-1070,46,Male,B+,Healthy / Routine Checkup,119,80,59,108.6,31.5,95,Multivitamin,Elective,2026-07-22,Discharged
+PAT-1071,32,Male,O+,Hypertension,148,89,70,114.3,24.0,95,Losartan,Routine Checkup,2026-08-28,Discharged
+PAT-1072,62,Male,O+,Type 2 Diabetes,132,70,66,155.3,28.6,97,Insulin Glargine,Emergency,2025-10-12,Discharged
+PAT-1073,82,Female,O+,Hypertension,154,96,93,95.3,24.9,97,Lisinopril,Routine Checkup,2026-06-01,Follow-up Required
+PAT-1074,26,Male,O+,Hypertension,156,92,79,77.2,21.2,99,Lisinopril,Routine Checkup,2025-11-29,Discharged
+PAT-1075,18,Male,O+,Depression,133,72,83,104.7,29.9,97,Escitalopram,Routine Checkup,2025-11-20,Discharged
+PAT-1076,25,Male,O-,Type 2 Diabetes,124,71,69,198.9,27.6,95,Glipizide,Emergency,2026-08-22,Transferred
+PAT-1077,80,Male,O+,Type 2 Diabetes,125,67,74,150.4,31.5,96,Glipizide,Urgent,2026-03-27,Discharged
+PAT-1078,28,Female,O+,Type 2 Diabetes,134,78,71,195.8,33.3,98,Insulin Glargine,Urgent,2026-02-23,Discharged
+PAT-1079,25,Male,O+,Osteoarthritis,124,68,71,95.1,21.5,96,Meloxicam,Elective,2026-08-27,Discharged
+PAT-1080,52,Female,A+,Asthma,132,66,91,105.9,22.7,96,Montelukast,Elective,2026-09-10,Discharged
+PAT-1081,52,Male,O+,Gastroesophageal Reflux,117,81,77,70.5,19.5,95,Omeprazole,Emergency,2026-05-29,Follow-up Required
+PAT-1082,50,Male,AB-,Type 2 Diabetes,122,78,68,237.2,34.7,96,Insulin Glargine,Routine Checkup,2025-11-25,Discharged
+PAT-1083,22,Male,B+,Gastroesophageal Reflux,115,77,73,104.1,31.4,99,Famotidine,Elective,2025-12-10,Follow-up Required
+PAT-1084,58,Male,O+,Osteoarthritis,113,72,88,102.6,28.6,94,Acetaminophen,Emergency,2026-06-03,Discharged
+PAT-1085,45,Female,A+,Hypertension,146,96,63,114.4,20.4,97,Lisinopril,Urgent,2026-04-16,Discharged
+PAT-1086,24,Female,AB+,Asthma,120,84,76,85.6,29.0,94,Albuterol,Elective,2026-02-14,Discharged
+PAT-1087,29,Female,O+,Migraine,122,65,94,93.3,19.7,98,Propranolol,Emergency,2026-04-12,Discharged
+PAT-1088,51,Female,O+,Healthy / Routine Checkup,117,65,61,107.1,23.3,97,None,Routine Checkup,2025-11-14,Discharged
+PAT-1089,50,Male,B+,Hyperlipidemia,111,66,61,114.0,21.2,96,Simvastatin,Routine Checkup,2026-06-09,Follow-up Required
+PAT-1090,65,Female,O+,Hyperlipidemia,130,82,77,107.0,19.1,98,Atorvastatin,Elective,2026-06-03,Discharged
+PAT-1091,40,Male,O+,Healthy / Routine Checkup,116,81,67,112.8,20.2,97,Multivitamin,Emergency,2026-04-20,Discharged
+PAT-1092,79,Female,A+,Hyperlipidemia,131,70,81,96.8,26.8,99,Simvastatin,Routine Checkup,2026-06-24,Discharged
+PAT-1093,54,Male,A+,Hypertension,160,93,92,101.9,30.3,99,Lisinopril,Elective,2026-01-28,Discharged
+PAT-1094,61,Male,O+,Healthy / Routine Checkup,122,84,83,85.3,29.5,99,None,Elective,2026-09-11,Discharged
+PAT-1095,52,Male,A-,Type 2 Diabetes,111,75,94,228.4,32.6,99,Glipizide,Elective,2025-12-16,Transferred
+PAT-1096,82,Male,A+,Hyperlipidemia,130,67,95,71.8,20.7,96,Simvastatin,Elective,2026-01-01,Discharged
+PAT-1097,64,Male,O+,Hypertension,143,95,78,102.6,26.5,94,Lisinopril,Urgent,2026-05-13,Discharged
+PAT-1098,20,Male,A-,Hypertension,141,97,97,91.6,26.8,97,Amlodipine,Elective,2026-09-04,Discharged
+PAT-1099,18,Female,AB+,Type 2 Diabetes,123,78,96,167.1,28.2,96,Metformin,Urgent,2026-02-03,Follow-up Required
+PAT-1100,22,Male,B+,Gastroesophageal Reflux,127,83,78,77.3,18.8,99,Omeprazole,Routine Checkup,2026-07-02,Transferred
+PAT-1101,31,Male,O+,Type 2 Diabetes,123,69,67,239.6,37.7,94,Insulin Glargine,Elective,2026-05-09,Discharged
+PAT-1102,44,Female,B+,Type 2 Diabetes,107,74,95,174.4,28.6,98,Insulin Glargine,Routine Checkup,2026-08-20,Discharged
+PAT-1103,26,Female,O+,Type 2 Diabetes,126,79,61,158.3,31.6,98,Insulin Glargine,Routine Checkup,2026-07-23,Follow-up Required
+PAT-1104,32,Male,A+,Hyperlipidemia,134,84,77,98.3,28.4,98,Simvastatin,Elective,2026-03-10,Discharged
+PAT-1105,59,Male,O+,Healthy / Routine Checkup,134,84,74,92.7,25.8,99,None,Elective,2026-02-02,Follow-up Required
+PAT-1106,68,Female,B+,Hyperlipidemia,123,73,64,89.7,28.3,98,Simvastatin,Urgent,2026-03-22,Discharged
+PAT-1107,80,Male,O+,Hyperlipidemia,108,66,61,96.9,29.2,95,Simvastatin,Urgent,2025-11-02,Discharged
+PAT-1108,69,Female,AB+,Migraine,111,74,86,114.6,22.3,97,Sumatriptan,Routine Checkup,2026-07-13,Transferred
+PAT-1109,21,Female,O-,Hyperlipidemia,133,76,71,87.3,24.8,97,Atorvastatin,Elective,2026-03-23,Follow-up Required
+PAT-1110,40,Male,O+,Hypertension,150,99,60,80.6,29.0,99,Losartan,Routine Checkup,2026-01-28,Discharged
+PAT-1111,32,Male,A+,Type 2 Diabetes,108,80,81,196.2,33.6,95,Glipizide,Emergency,2025-10-27,Discharged
+PAT-1112,60,Female,O+,Type 2 Diabetes,118,78,94,186.4,31.0,96,Metformin,Emergency,2026-09-02,Discharged
+PAT-1113,46,Female,A-,Asthma,110,77,73,89.7,19.8,96,Albuterol,Urgent,2025-12-13,Discharged
+PAT-1114,53,Female,A-,Asthma,133,79,61,96.7,26.3,98,Albuterol,Emergency,2026-07-06,Discharged
+PAT-1115,30,Female,A+,Gastroesophageal Reflux,124,66,81,74.3,27.3,94,Omeprazole,Emergency,2026-08-21,Discharged
+PAT-1116,49,Female,AB-,Type 2 Diabetes,129,66,91,224.4,26.1,96,Insulin Glargine,Elective,2026-05-17,Follow-up Required
+PAT-1117,76,Female,AB+,Hyperlipidemia,105,72,87,96.9,23.9,94,Atorvastatin,Emergency,2026-03-25,Discharged
+PAT-1118,45,Female,A-,Osteoarthritis,127,79,75,80.6,30.4,97,Meloxicam,Emergency,2026-07-29,Discharged
+PAT-1119,83,Female,O+,Asthma,126,78,76,84.9,24.6,94,Fluticasone,Routine Checkup,2025-12-29,Discharged
+PAT-1120,59,Female,A+,Depression,116,73,88,89.4,21.9,97,Sertraline,Emergency,2026-09-12,Discharged
+PAT-1121,62,Female,A+,Hyperlipidemia,115,76,76,101.8,20.8,95,Simvastatin,Routine Checkup,2026-07-21,Discharged
+PAT-1122,79,Female,A+,Type 2 Diabetes,124,75,76,211.0,34.0,95,Glipizide,Routine Checkup,2026-05-05,Transferred
+PAT-1123,74,Female,A+,Chronic Kidney Disease,109,81,79,108.0,29.4,99,Calcitriol,Routine Checkup,2026-06-06,Discharged
+PAT-1124,23,Male,B+,Hyperlipidemia,132,79,81,109.1,21.3,99,Simvastatin,Emergency,2026-08-24,Follow-up Required
+PAT-1125,45,Female,O+,Hyperlipidemia,133,84,69,82.1,19.3,98,Atorvastatin,Routine Checkup,2025-10-21,Follow-up Required
+PAT-1126,45,Female,AB+,Hyperlipidemia,109,84,87,72.3,27.1,96,Atorvastatin,Elective,2026-07-16,Discharged
+PAT-1127,61,Female,A+,Hyperlipidemia,107,70,95,78.1,19.7,98,Simvastatin,Urgent,2025-10-25,Follow-up Required
+PAT-1128,47,Female,A-,Gastroesophageal Reflux,105,81,88,96.3,27.8,97,Famotidine,Urgent,2025-10-01,Transferred
+PAT-1129,79,Female,A+,Hypertension,149,102,93,113.4,18.6,98,Lisinopril,Routine Checkup,2026-08-24,Discharged
+PAT-1130,79,Male,O+,Type 2 Diabetes,106,82,76,237.0,33.0,94,Glipizide,Elective,2026-06-18,Discharged
+PAT-1131,18,Male,A+,Hypertension,152,96,93,94.0,20.2,97,Amlodipine,Routine Checkup,2026-07-18,Discharged
+PAT-1132,44,Male,O+,Gastroesophageal Reflux,134,77,87,76.5,31.2,99,Omeprazole,Elective,2025-11-12,Discharged
+PAT-1133,79,Male,O-,Type 2 Diabetes,132,72,90,236.7,27.1,95,Glipizide,Routine Checkup,2026-03-16,Follow-up Required
+PAT-1134,20,Male,AB+,Migraine,112,70,75,109.1,20.9,99,Sumatriptan,Routine Checkup,2025-10-25,Discharged
+PAT-1135,44,Female,O+,Hyperlipidemia,106,65,85,107.7,31.3,96,Simvastatin,Emergency,2025-10-23,Follow-up Required
+PAT-1136,26,Male,A+,Depression,114,82,68,81.0,29.7,97,Sertraline,Routine Checkup,2026-03-25,Discharged
+PAT-1137,79,Female,O+,Healthy / Routine Checkup,119,72,90,104.6,20.0,97,Multivitamin,Emergency,2026-06-08,Discharged
+PAT-1138,54,Male,AB+,Depression,129,78,74,111.3,26.6,94,Escitalopram,Emergency,2026-02-08,Follow-up Required
+PAT-1139,68,Female,O+,Migraine,120,78,63,87.7,27.3,96,Sumatriptan,Emergency,2026-08-13,Discharged
+PAT-1140,61,Male,A+,Asthma,130,66,61,115.0,19.2,95,Albuterol,Elective,2026-01-19,Discharged
+PAT-1141,41,Male,A+,Hyperlipidemia,113,65,77,88.3,30.3,97,Simvastatin,Urgent,2025-10-30,Discharged
+PAT-1142,76,Female,A+,Type 2 Diabetes,113,77,84,161.8,27.3,97,Metformin,Emergency,2025-10-29,Discharged
+PAT-1143,49,Female,O+,Hypertension,163,90,72,84.7,27.5,94,Losartan,Emergency,2025-09-15,Discharged
+PAT-1144,69,Male,O+,Hyperlipidemia,110,66,63,104.3,29.3,98,Atorvastatin,Routine Checkup,2026-03-01,Discharged
+PAT-1145,79,Female,O+,Hyperlipidemia,123,77,71,106.8,20.1,95,Simvastatin,Routine Checkup,2025-12-31,Discharged
+PAT-1146,75,Male,A+,Type 2 Diabetes,126,71,68,130.6,29.9,99,Glipizide,Routine Checkup,2025-10-03,Follow-up Required
+PAT-1147,69,Male,O+,Hyperlipidemia,116,71,96,95.4,23.6,96,Atorvastatin,Routine Checkup,2026-08-12,Discharged
+PAT-1148,29,Female,A-,Migraine,133,65,66,80.7,23.5,97,Sumatriptan,Routine Checkup,2025-11-25,Discharged
+PAT-1149,56,Female,A-,Hyperlipidemia,116,70,83,73.3,26.6,97,Simvastatin,Emergency,2026-01-01,Discharged
+PAT-1150,19,Male,A+,Chronic Kidney Disease,118,78,73,97.9,24.8,99,Calcitriol,Elective,2026-06-09,Follow-up Required
+PAT-1151,20,Female,O+,Depression,107,72,62,93.4,25.0,95,Sertraline,Routine Checkup,2026-05-12,Discharged
+PAT-1152,73,Female,A+,Healthy / Routine Checkup,125,76,67,76.7,25.6,98,Multivitamin,Emergency,2026-07-12,Discharged
+PAT-1153,76,Female,O+,Osteoarthritis,119,76,60,91.5,23.8,97,Acetaminophen,Urgent,2025-12-13,Discharged
+PAT-1154,19,Male,O+,Depression,127,70,70,103.6,28.2,95,Sertraline,Emergency,2025-12-26,Discharged
+PAT-1155,19,Male,A+,Healthy / Routine Checkup,115,77,87,107.0,24.3,99,Multivitamin,Elective,2026-05-22,Transferred
+PAT-1156,71,Female,AB+,Healthy / Routine Checkup,120,79,63,73.2,31.4,94,None,Elective,2025-09-22,Discharged
+PAT-1157,18,Female,A+,Hypertension,140,103,74,72.7,31.1,98,Lisinopril,Urgent,2026-02-14,Discharged
+PAT-1158,36,Female,A-,Asthma,126,83,76,74.6,25.1,96,Montelukast,Urgent,2026-08-27,Discharged
+PAT-1159,19,Male,B+,Type 2 Diabetes,120,84,92,203.7,37.2,97,Metformin,Urgent,2026-03-07,Discharged
+PAT-1160,70,Female,A-,Hypertension,157,87,83,96.1,19.7,95,Lisinopril,Emergency,2026-08-23,Follow-up Required
+PAT-1161,61,Female,O+,Osteoarthritis,134,82,62,88.0,31.7,94,Meloxicam,Emergency,2026-02-19,Follow-up Required
+PAT-1162,49,Male,B+,Gastroesophageal Reflux,130,75,86,75.5,30.1,96,Famotidine,Routine Checkup,2026-04-17,Discharged
+PAT-1163,49,Male,O+,Depression,111,77,94,78.3,22.5,95,Sertraline,Urgent,2026-03-10,Follow-up Required
+PAT-1164,85,Female,O+,Hypertension,149,88,77,73.9,29.5,95,Amlodipine,Emergency,2026-03-08,Transferred
+PAT-1165,72,Female,O+,Migraine,116,77,78,98.5,31.3,96,Propranolol,Routine Checkup,2026-08-20,Discharged
+PAT-1166,73,Male,O+,Osteoarthritis,127,73,67,105.7,27.2,94,Acetaminophen,Emergency,2026-08-18,Discharged
+PAT-1167,34,Male,O+,Chronic Kidney Disease,128,74,62,110.5,23.3,99,Erythropoietin,Elective,2026-02-07,Discharged
+PAT-1168,55,Male,A-,Healthy / Routine Checkup,130,69,93,83.6,28.4,94,None,Emergency,2026-08-04,Transferred
+PAT-1169,41,Male,A+,Osteoarthritis,108,71,63,100.0,19.8,98,Ibuprofen,Routine Checkup,2026-02-22,Follow-up Required
+PAT-1170,28,Female,O+,Type 2 Diabetes,108,74,83,179.7,33.0,97,Insulin Glargine,Urgent,2026-01-19,Transferred
+PAT-1171,33,Female,O+,Depression,119,81,61,103.2,30.1,96,Escitalopram,Emergency,2025-12-05,Follow-up Required
+PAT-1172,76,Male,A+,Asthma,127,81,96,78.0,22.7,99,Fluticasone,Routine Checkup,2026-02-08,Discharged
+PAT-1173,20,Female,B-,Hypertension,164,91,96,94.6,21.6,96,Losartan,Elective,2026-05-11,Transferred
+PAT-1174,37,Female,A+,Depression,118,77,92,96.8,25.2,96,Escitalopram,Emergency,2025-12-07,Transferred
+PAT-1175,76,Female,O-,Type 2 Diabetes,106,67,58,195.7,34.1,94,Metformin,Emergency,2026-01-05,Discharged
+PAT-1176,53,Female,A+,Gastroesophageal Reflux,114,71,81,102.6,18.7,97,Omeprazole,Emergency,2026-04-27,Discharged
+PAT-1177,36,Male,A+,Asthma,128,78,93,74.7,28.3,98,Albuterol,Emergency,2026-08-12,Transferred
+PAT-1178,84,Male,A-,Migraine,114,71,63,104.8,22.1,95,Sumatriptan,Urgent,2026-05-15,Discharged
+PAT-1179,36,Female,B+,Type 2 Diabetes,109,65,88,195.5,30.8,95,Glipizide,Routine Checkup,2026-02-04,Transferred
+PAT-1180,37,Female,O+,Healthy / Routine Checkup,105,70,77,86.0,19.4,96,Multivitamin,Elective,2025-10-25,Discharged
+PAT-1181,69,Male,A+,Gastroesophageal Reflux,121,66,81,100.1,19.4,97,Omeprazole,Emergency,2026-05-30,Discharged
+PAT-1182,50,Female,O+,Hypertension,161,92,82,109.6,27.3,99,Losartan,Emergency,2026-06-26,Transferred
+PAT-1183,57,Female,A+,Hyperlipidemia,126,76,93,84.6,23.0,94,Atorvastatin,Emergency,2025-12-28,Discharged
+PAT-1184,56,Male,O+,Healthy / Routine Checkup,110,66,78,114.7,27.4,97,Multivitamin,Elective,2026-04-04,Discharged
+PAT-1185,18,Female,A+,Hyperlipidemia,121,67,87,102.9,24.8,97,Atorvastatin,Routine Checkup,2026-07-18,Discharged
+PAT-1186,28,Female,A+,Hypertension,137,96,81,74.0,31.5,94,Losartan,Emergency,2026-08-11,Follow-up Required
+PAT-1187,74,Female,O+,Hyperlipidemia,133,79,87,79.0,25.7,96,Atorvastatin,Routine Checkup,2026-06-07,Discharged
+PAT-1188,67,Male,O-,Hyperlipidemia,134,80,79,70.1,22.6,97,Atorvastatin,Routine Checkup,2026-04-12,Follow-up Required
+PAT-1189,40,Female,O+,Gastroesophageal Reflux,112,84,85,91.4,23.7,95,Omeprazole,Elective,2025-11-04,Discharged
+PAT-1190,48,Female,O+,Chronic Kidney Disease,127,83,64,76.9,31.9,94,Erythropoietin,Routine Checkup,2026-01-10,Follow-up Required
+PAT-1191,59,Female,O+,Asthma,112,76,92,81.0,27.6,99,Fluticasone,Urgent,2026-04-03,Follow-up Required
+PAT-1192,24,Female,A+,Type 2 Diabetes,124,70,85,158.3,35.5,98,Metformin,Urgent,2025-10-23,Discharged
+PAT-1193,33,Female,O-,Osteoarthritis,105,80,71,92.8,20.7,96,Meloxicam,Elective,2025-10-12,Discharged
+PAT-1194,77,Female,B-,Asthma,133,78,67,75.3,21.6,94,Albuterol,Elective,2026-05-31,Discharged
+PAT-1195,19,Female,O+,Hypertension,131,93,73,73.9,31.1,98,Amlodipine,Emergency,2025-12-07,Discharged
+PAT-1196,18,Female,O+,Healthy / Routine Checkup,113,65,73,83.7,23.9,98,None,Elective,2026-02-16,Discharged
+PAT-1197,65,Male,O+,Chronic Kidney Disease,127,68,88,109.3,20.7,99,Erythropoietin,Emergency,2026-01-09,Discharged
+PAT-1198,29,Male,AB+,Chronic Kidney Disease,126,75,82,95.9,26.1,97,Erythropoietin,Urgent,2025-09-16,Discharged
+PAT-1199,54,Male,B+,Depression,124,74,70,92.6,23.9,99,Escitalopram,Emergency,2025-12-16,Discharged
+PAT-1200,49,Female,O+,Hyperlipidemia,110,82,63,98.3,27.6,97,Atorvastatin,Routine Checkup,2026-02-27,Discharged
+PAT-1201,26,Male,A+,Depression,114,78,66,106.3,29.2,97,Escitalopram,Routine Checkup,2026-08-30,Discharged
+PAT-1202,36,Female,O-,Hyperlipidemia,124,78,93,73.6,23.9,94,Simvastatin,Elective,2026-07-07,Follow-up Required
+PAT-1203,65,Male,O+,Hypertension,131,86,77,80.1,31.4,94,Lisinopril,Emergency,2026-05-30,Discharged
+PAT-1204,20,Female,A+,Asthma,122,74,75,107.0,20.3,96,Albuterol,Routine Checkup,2025-12-04,Discharged
+PAT-1205,37,Female,O+,Hyperlipidemia,126,65,78,111.5,25.1,97,Atorvastatin,Routine Checkup,2026-06-09,Discharged
+PAT-1206,41,Female,AB+,Chronic Kidney Disease,118,80,61,104.4,20.9,98,Calcitriol,Routine Checkup,2026-05-07,Transferred
+PAT-1207,71,Male,O+,Hypertension,132,87,90,87.9,20.5,95,Amlodipine,Emergency,2026-08-01,Follow-up Required
+PAT-1208,50,Female,O+,Hypertension,163,92,84,91.5,25.3,96,Amlodipine,Elective,2026-07-22,Follow-up Required
+PAT-1209,41,Female,A+,Type 2 Diabetes,119,68,64,138.8,35.3,94,Glipizide,Emergency,2026-07-12,Follow-up Required
+PAT-1210,53,Male,B-,Type 2 Diabetes,132,77,63,233.0,36.5,99,Glipizide,Emergency,2026-09-06,Discharged
+PAT-1211,55,Female,O-,Gastroesophageal Reflux,133,70,72,70.0,18.7,96,Omeprazole,Routine Checkup,2026-04-15,Transferred
+PAT-1212,42,Female,A+,Type 2 Diabetes,106,83,75,172.5,32.8,96,Insulin Glargine,Routine Checkup,2025-11-15,Transferred
+PAT-1213,35,Male,O+,Osteoarthritis,106,74,89,79.5,25.0,96,Meloxicam,Urgent,2025-11-02,Discharged
+PAT-1214,83,Female,A-,Hyperlipidemia,122,79,68,114.3,21.7,96,Atorvastatin,Routine Checkup,2026-01-19,Follow-up Required
+PAT-1215,71,Male,B+,Hyperlipidemia,107,73,77,105.2,22.1,95,Atorvastatin,Urgent,2026-04-25,Discharged
+PAT-1216,52,Male,AB-,Depression,111,80,81,101.1,26.8,99,Escitalopram,Elective,2026-06-20,Discharged
+PAT-1217,78,Male,AB-,Asthma,108,71,72,80.3,21.6,99,Montelukast,Elective,2026-07-05,Discharged
+PAT-1218,58,Male,A+,Gastroesophageal Reflux,132,84,64,77.8,27.4,99,Famotidine,Routine Checkup,2026-06-25,Discharged
+PAT-1219,50,Male,O+,Asthma,110,71,78,102.6,29.2,97,Albuterol,Emergency,2026-06-18,Discharged
+PAT-1220,85,Female,A+,Asthma,134,67,83,86.5,24.1,98,Albuterol,Routine Checkup,2025-12-30,Discharged
+PAT-1221,50,Female,A+,Healthy / Routine Checkup,118,71,71,103.0,28.9,99,Multivitamin,Routine Checkup,2026-02-07,Discharged
+PAT-1222,31,Female,A+,Hypertension,131,90,94,81.7,28.8,96,Lisinopril,Emergency,2025-12-22,Discharged
+PAT-1223,38,Female,A+,Hypertension,134,85,78,84.6,29.8,96,Losartan,Urgent,2025-11-26,Transferred
+PAT-1224,65,Female,B+,Gastroesophageal Reflux,117,82,75,72.9,19.1,99,Famotidine,Routine Checkup,2026-01-14,Discharged
+PAT-1225,37,Female,O+,Hypertension,146,87,62,82.0,27.2,99,Lisinopril,Urgent,2025-10-14,Discharged
+PAT-1226,25,Male,O+,Depression,125,84,60,82.0,20.5,96,Escitalopram,Routine Checkup,2026-03-21,Follow-up Required
+PAT-1227,24,Male,A+,Asthma,134,68,80,108.9,21.8,97,Albuterol,Routine Checkup,2026-09-13,Transferred
+PAT-1228,84,Male,O+,Healthy / Routine Checkup,122,72,83,106.5,26.8,94,None,Elective,2026-09-03,Discharged
+PAT-1229,34,Male,O+,Chronic Kidney Disease,133,70,94,87.7,31.4,94,Calcitriol,Elective,2026-06-29,Transferred
+PAT-1230,50,Female,B+,Osteoarthritis,121,73,81,74.6,27.4,99,Acetaminophen,Routine Checkup,2026-03-28,Transferred
+PAT-1231,65,Male,O-,Healthy / Routine Checkup,113,65,76,106.4,19.5,95,Multivitamin,Urgent,2026-02-17,Follow-up Required
+PAT-1232,76,Female,O-,Asthma,105,74,82,111.9,21.9,99,Fluticasone,Emergency,2026-03-05,Discharged
+PAT-1233,39,Female,A+,Healthy / Routine Checkup,112,75,78,92.3,23.7,99,Multivitamin,Emergency,2026-08-15,Discharged
+PAT-1234,47,Female,A-,Hypertension,151,92,69,80.2,30.5,94,Lisinopril,Urgent,2025-10-25,Discharged
+PAT-1235,55,Male,O+,Hyperlipidemia,127,77,90,76.8,28.5,96,Atorvastatin,Routine Checkup,2025-11-16,Discharged
+PAT-1236,68,Male,O+,Type 2 Diabetes,105,69,61,135.3,26.5,99,Metformin,Routine Checkup,2025-10-07,Discharged
+PAT-1237,71,Female,A+,Hyperlipidemia,127,75,64,99.7,29.3,96,Atorvastatin,Urgent,2026-09-09,Discharged
+PAT-1238,25,Female,O+,Hypertension,164,101,79,113.0,28.5,96,Lisinopril,Emergency,2025-11-28,Discharged
+PAT-1239,44,Male,O+,Depression,130,78,90,114.6,31.6,95,Escitalopram,Emergency,2025-11-01,Discharged
+PAT-1240,44,Female,O+,Depression,123,71,74,105.3,23.3,96,Escitalopram,Routine Checkup,2026-02-21,Discharged
+PAT-1241,38,Male,O+,Healthy / Routine Checkup,130,69,81,94.7,29.7,94,None,Emergency,2026-07-24,Follow-up Required
+PAT-1242,47,Male,O+,Hypertension,137,94,91,70.9,19.6,97,Lisinopril,Emergency,2026-01-10,Discharged
+PAT-1243,45,Male,A+,Osteoarthritis,132,81,85,83.3,28.9,97,Ibuprofen,Emergency,2025-12-23,Discharged
+PAT-1244,81,Male,A+,Hyperlipidemia,129,73,96,87.2,21.3,98,Atorvastatin,Urgent,2026-02-28,Transferred
+PAT-1245,78,Female,O+,Type 2 Diabetes,121,68,79,197.7,35.3,99,Metformin,Routine Checkup,2026-07-01,Discharged
+PAT-1246,65,Female,O+,Asthma,113,82,74,84.5,20.2,94,Fluticasone,Emergency,2026-02-17,Discharged
+PAT-1247,36,Male,A+,Asthma,131,72,91,75.1,25.1,96,Albuterol,Elective,2025-09-21,Transferred
+PAT-1248,21,Female,O+,Chronic Kidney Disease,120,66,63,75.8,23.1,97,Calcitriol,Urgent,2026-03-29,Discharged
+PAT-1249,52,Female,O+,Hyperlipidemia,112,82,63,80.1,23.5,94,Simvastatin,Routine Checkup,2025-11-09,Transferred
