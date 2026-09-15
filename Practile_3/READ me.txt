@@ -1,0 +1,46 @@
+#Customer Credit Risk — Data Preprocessing Project
+
+#What is this project?
+This project cleans and prepares a **Customer Credit Risk dataset** so it can be used to build a Machine Learning model that predicts whether a customer will **default on a loan**.
+
+#Goal
+Take raw, messy data → clean it → engineer features → produce an **ML-ready dataset**.
+
+#Files in this Project
+
+| File | Purpose |
+|------|---------|
+| `Customer_Credit_Risk_Preprocessing.ipynb` | Main Jupyter Notebook (all code) |
+| `customer_data.csv` | Customer dataset (input) |
+| `payment_data.csv` | Payment history dataset (input) |
+| `final_cleaned_credit_risk_dataset.csv` | Cleaned output dataset |
+| `README.md` | This file |
+
+#What Was Done?
+
+1. **Loaded & Merged** data from CSV files
+2. **Explored** data using Pandas (`.info()`, `.describe()`)
+3. **Handled Missing Values** using:
+   - Simple Imputer (Median / Mode)
+   - KNN Imputer
+   - MICE (IterativeImputer)
+4. **Treated Outliers** using:
+   - Z-Score
+   - IQR
+   - Winsorization
+5. **Encoded Categories**:
+   - Ordinal → education_level
+   - Label → gender
+   - One-Hot → region, loan_purpose
+6. **Scaled Features**:
+   - Standardization, Min-Max, MaxAbs, Robust Scaling
+7. **Created New Features**:
+   - Debt-to-Income Ratio
+   - Avg Monthly Transactions
+8. **Exported** the final cleaned dataset as CSV
+
+#How to Run
+
+#Step 1: Install libraries
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn scipy
