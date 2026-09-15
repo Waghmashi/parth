@@ -1,0 +1,67 @@
+Patient Health Data Profiler
+
+Project Overview
+This is an advanced Data Science project completed as part of the **Red & White Skill Education** curriculum. The primary objective of this project is to perform comprehensive Data Preprocessing, Feature Engineering, Exploratory Data Analysis (EDA), and Data Profiling on a real-world Patient Health Records dataset.
+
+The ultimate goal is to clean and transform messy medical data into a Machine Learning (ML) ready format to predict patient discharge status (Discharged, Follow-up Required, or Transferred) based on clinical vitals and demographics.
+
+Objectives
+*   Understand the fundamentals of Data Analysis, ML Problem Framing, and Tensors.
+*   Acquire data from multiple formats (CSV, JSON, SQL, API).
+*   Perform advanced data cleaning (handling missing values, duplicates, date conversion).
+*   Conduct Feature Engineering to create clinically relevant features (MAP, BP Categories, Age Groups).
+*   Carry out comprehensive Univariate, Bivariate, and Multivariate Exploratory Data Analysis (EDA).
+*   Generate automated data profiling reports for clinical decision-making.
+
+Repository Structure
+*   `patient_health_records.csv`: The raw dataset containing 250 patient records.
+*   `Patient_Health_Data_Profiler.ipynb`: The main Jupyter Notebook containing all code, visualizations, and theoretical explanations.
+*   `advanced_patient_profiling_report.html`: The automated YData (Pandas) Profiling report generated from the cleaned dataset.
+*   `README.md`: Project documentation and summary.
+
+Technologies & Libraries Used
+*   **Language:** Python 3.x
+*   **Data Manipulation:** Pandas, NumPy
+*   **Data Visualization:** Matplotlib, Seaborn
+*   **Database & APIs:** SQLite3, JSON
+*   **Machine Learning Preprocessing:** Scikit-Learn (LabelEncoder)
+*   **Data Profiling:** YData Profiling (formerly Pandas Profiling)
+
+Project Workflow & Tasks Completed
+
+Part A: Fundamentals
+*   Defined Data Analysis and outlined the steps to plan a Data Science project.
+*   Framed the Machine Learning problem statement (Predicting Patient Discharge Status).
+*   Explained the concept of Tensors with NumPy examples.
+
+Part B: Advanced Data Acquisition
+*   Loaded the primary dataset from a **CSV** file.
+*   Parsed simulated wearable device data from a **JSON** payload.
+*   Connected to an in-memory **SQLite** database to fetch records.
+*   Simulated fetching external lab results from a REST **API**.
+*   Merged all four sources into a single master DataFrame.
+
+Part C: Advanced Data Cleaning & Feature Engineering
+*   Removed duplicate patient records based on `Patient_ID`.
+*   Converted `Visit_Date` to proper DateTime format.
+*   Handled missing values using median (numeric) and mode (categorical) imputation.
+*   **Feature Engineering:**
+    *   Calculated **Mean Arterial Pressure (MAP)**.
+    *   Created **BP Category** (Normal, Elevated, Hypertensive).
+    *   Created **Age Groups** (Young, Middle-aged, Senior, Elderly).
+    *   Applied Label Encoding to all categorical variables for ML readiness.
+
+Part D: Exploratory Data Analysis (EDA)
+*   **Univariate Analysis:** Plotted distributions for Age, BMI, Glucose, BP, Heart Rate, and SpO2.
+*   **Bivariate Analysis:** Analyzed Age vs. Discharge Status, Glucose by Diagnosis, and BMI by Admission Type.
+*   **Multivariate Analysis:** Generated a Correlation Heatmap of medical variables and a Pair Plot for key features.
+
+Part E: Data Profiling
+*   Generated a comprehensive **YData Profiling Report** summarizing missing values, descriptive statistics, correlations, and potential data quality issues.
+
+How to Run the Project
+1. Clone this repository to your local machine.
+2. Ensure you have Jupyter Notebook installed (or use Google Colab).
+3. Install the required dependencies:
+   ```bash
+   pip install pandas numpy matplotlib seaborn ydata-profiling scikit-learn
