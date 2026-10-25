@@ -1,0 +1,12 @@
+Part A — Short theory
+1. Supervised learning: The model learns from examples where the correct answer is already known. It uses the learned pattern to predict answers for new examples.
+
+2. Regression and classification: Regression predicts a number, such as a house price. Classification predicts a group or label, such as low-price or high-price.
+
+3. Simple linear regression: It predicts a target using one feature and a straight-line relationship: y = b0 + b1x.
+
+4. Linear regression assumptions: The relationship should be roughly linear, errors should be independent, error spread should be reasonably constant, and predictors should not be perfectly correlated with each other.
+
+5. Bias–variance trade-off: A model with high bias is too simple to learn the pattern. A model with high variance can fit training details too closely and may not predict new data well.
+
+6. Overfitting and underfitting: Overfitting is when training results are much better than testing results. Underfitting is when the model performs poorly on both.
