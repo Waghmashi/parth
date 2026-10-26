@@ -1,0 +1,26 @@
+Part A: Conceptual Foundation
+
+1. What is Regularization in Machine Learning? Why is it needed?
+Regularization is a technique used to prevent a machine learning model from overfitting by adding a penalty to the model's complexity. It helps improve the model's performance on unseen data.
+
+2. Difference between Ridge Regression (L2) and Lasso Regression (L1).
+Ridge Regression (L2) adds a penalty based on the squared values of coefficients, while Lasso Regression (L1) uses the absolute values of coefficients. Ridge shrinks coefficients toward zero, whereas Lasso can make some coefficients exactly zero.
+
+3. What is Cross-Validation and why is it important?
+Cross-validation is a technique used to evaluate a machine learning model by dividing the dataset into multiple parts. It helps estimate model performance on unseen data and reduces dependence on a single train-test split.
+
+4. Explain the following cross-validation techniques:
+a) K-Fold Cross-Validation:**  
+The dataset is divided into K equal-sized folds. The model is trained on K−1 folds and tested on the remaining fold, repeating the process K times.
+
+b) Stratified K-Fold Cross-Validation:**  
+It divides the dataset into K folds while maintaining approximately the same class proportions in each fold. It is useful for imbalanced classification datasets.
+
+c) Leave-One-Out Cross-Validation (LOOCV):**  
+The model is trained on all data points except one and tested on the remaining point. This process repeats for every data point in the dataset.
+
+d) Time Series Split:**  
+The dataset is divided according to time order, using earlier observations for training and later observations for testing. It prevents future data from being used to predict the past.
+
+5. Why are tree-based models less sensitive to feature scaling?
+Tree-based models use feature values to create splitting rules rather than calculating distances between data points. Therefore, scaling features usually does not significantly affect their performance.

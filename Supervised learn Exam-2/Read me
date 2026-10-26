@@ -1,0 +1,24 @@
+# Advanced Regression: House Price Prediction
+
+## Files
+- `Advanced_Regression_HousePrice_Project.ipynb` — notebook with code, saved outputs, charts, model comparison, and conclusions.
+- `Advanced_Regression_HousePrice_Dataset_3800.xlsx` — supplied dataset used by the notebook and app.
+- `app.py` — optional Streamlit interface for selecting a regression model and viewing test metrics.
+
+## Run the notebook
+1. Install Python 3.10 or later.
+2. Install packages from `requirements.txt`.
+3. Keep the notebook and Excel file in the same folder.
+4. Open the notebook in Jupyter and run cells from top to bottom.
+
+## Run the Streamlit app
+bash
+streamlit run app.py
+The app uses the included Excel file by default. You can also upload an `.xlsx` dataset through the app.
+
+## Notes
+- Target variable: `house_price_inr`.
+- property_id is excluded because it is an identifier.
+- Numeric preprocessing is placed inside scikit-learn pipelines to reduce data leakage during validation.
+- LOOCV is demonstrated on a reproducible 250-row subset to keep runtime reasonable; other main model evaluations use the full training split.
+- Model results are dataset-dependent. Review the outputs and be prepared to explain the modeling choices and evaluation metrics.
