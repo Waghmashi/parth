@@ -1,0 +1,19 @@
+Part A — Conceptual Understanding
+
+1. What are supervised learning algorithms?
+Supervised learning algorithms learn patterns from examples that contain input features and known target values. After training, they use the learned relationship to predict outcomes for new data.
+
+2. Regression vs. classification
+Regression predicts a numerical quantity, such as a house price. Classification predicts a category, such as whether a house belongs to a low-, medium-, or high-price group.
+
+3. Simple Linear Regression
+Simple Linear Regression models the relationship between one input feature and a numerical target using a straight line: y = b0 + b1x. The slope describes the expected change in the prediction for a one-unit increase in the input.
+
+4. Assumptions of Linear Regression
+Common assumptions are an approximately linear relationship, independent errors, roughly constant error variance, and residuals that are approximately normal when conducting statistical inference. Predictors should not have severe multicollinearity in multiple regression.
+
+5. Bias–Variance Trade-Off
+Bias is error from a model that is too simple to capture the pattern. Variance is sensitivity to the training data. A useful model balances both so it performs well on unseen examples.
+
+6. Overfitting and underfitting
+Underfitting happens when a model is too simple and performs poorly on both training and test data. Overfitting happens when it learns noise or peculiarities in training data, so training performance is strong but test performance is weaker.
